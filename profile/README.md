@@ -1,9 +1,7 @@
-<a href="https://fynepdf.com">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/fynepdf/.github/main/profile/assets/fynepdf-logo-dark.svg">
-    <img src="https://raw.githubusercontent.com/fynepdf/.github/main/profile/assets/fynepdf-logo.svg" alt="FynePDF" width="160" height="36">
-  </picture>
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/fynepdf/.github/main/profile/assets/fynepdf-logo-dark.svg">
+  <img src="https://raw.githubusercontent.com/fynepdf/.github/main/profile/assets/fynepdf-logo.svg" alt="FynePDF" width="160" height="36">
+</picture>
 
 **FynePDF is an AI PDF workspace.** Edit PDFs by hand or by prompt, merge, convert, compress and sign them, run workflows, and let 15 AI agents review contracts, résumés and citations. Every tool is free to start, with no sign-up: **[fynepdf.com](https://fynepdf.com)**
 
