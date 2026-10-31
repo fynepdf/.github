@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Help with fynepdf.com or the FynePDF app
+    url: https://fynepdf.com/contact-us
+    about: Questions about the website, the desktop app, your account or billing go to support@fynepdf.com, not here.
+  - name: Report a security problem
+    url: https://github.com/fynepdf/.github/blob/main/SECURITY.md
+    about: Please report security problems privately.

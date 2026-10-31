@@ -1,0 +1,43 @@
+name: Bug report
+description: Something doesn't work as documented.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting. For a security problem, don't use this form: follow the [security policy](https://github.com/fynepdf/.github/blob/main/SECURITY.md) instead.
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: The version you're using. For npm packages, `npm ls <package>` shows it.
+      placeholder: "0.1.2"
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Operating system and Node.js version
+      placeholder: "Windows 11, Node 22.14"
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: What you ran
+      description: The exact command or code.
+      render: shell
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected, and what happened instead
+      description: Include the full error message or output.
+    validations:
+      required: true
+  - type: textarea
+    id: file
+    attributes:
+      label: A file that shows the problem
+      description: For the PDF libraries, attach a PDF that triggers it, only if you can share it publicly. Never attach confidential documents. A small file you made yourself that shows the same problem is ideal.
