@@ -1,7 +1,7 @@
 <a href="https://fynepdf.com">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/fynepdf/.github/main/profile/assets/fynepdf-logo-dark.svg">
-    <img src="https://raw.githubusercontent.com/fynepdf/.github/main/profile/assets/fynepdf-logo.svg" alt="FynePDF" height="36">
+    <img src="https://raw.githubusercontent.com/fynepdf/.github/main/profile/assets/fynepdf-logo.svg" alt="FynePDF" width="160" height="36">
   </picture>
 </a>
 
@@ -11,11 +11,14 @@ This is where we open-source the parts of FynePDF that are useful on their own. 
 
 ## Open source
 
-| Project | What it does | Install |
-| --- | --- | --- |
-| **[fynepdf-pdfa](https://github.com/fynepdf/fynepdf-pdfa)** | Turns PDFs into valid **PDF/A** by fixing them in place instead of rebuilding them. 99.3% of 2,053 test files come out valid PDF/A-2b in veraPDF, and a file it can't fix is never labelled PDF/A. C++17 library and command line on qpdf, no Ghostscript. | `npm i fynepdf-pdfa` |
-| **[fynepdf-grayscale](https://github.com/fynepdf/fynepdf-grayscale)** | Converts PDFs to **grayscale** in place: text stays text and nothing is redrawn. On 1,067 real PDFs it lost no text, links or form fields, and ran 13× faster than Ghostscript. C++17 library and command line on qpdf. | `npm i fynepdf-grayscale` |
-| **[wrapguard](https://github.com/fynepdf/wrapguard)** | Fails CI when text wraps onto more lines at any screen width. It counts the lines of every heading, paragraph, link and button per breakpoint instead of comparing screenshots. CLI and GitHub Action. | `npm i -D wrapguard` |
+**[fynepdf-pdfa](https://github.com/fynepdf/fynepdf-pdfa)** &nbsp; `npm i fynepdf-pdfa`<br>
+Turns PDFs into valid **PDF/A** by fixing them in place instead of rebuilding them. 99.3% of 2,053 test files come out valid PDF/A-2b in veraPDF, and a file it can't fix is never labelled PDF/A. C++17 library and command line on qpdf, no Ghostscript.
+
+**[fynepdf-grayscale](https://github.com/fynepdf/fynepdf-grayscale)** &nbsp; `npm i fynepdf-grayscale`<br>
+Converts PDFs to **grayscale** in place: text stays text and nothing is redrawn. On 1,067 real PDFs it lost no text, links or form fields, and ran 13× faster than Ghostscript. C++17 library and command line on qpdf.
+
+**[wrapguard](https://github.com/fynepdf/wrapguard)** &nbsp; `npm i -D wrapguard`<br>
+Fails CI when text wraps onto more lines at any screen width. It counts the lines of every heading, paragraph, link and button per breakpoint instead of comparing screenshots. CLI and GitHub Action.
 
 We built the PDF/A and grayscale converters for fynepdf.com and the FynePDF desktop app, as an open-source alternative to Ghostscript for both jobs.
 
